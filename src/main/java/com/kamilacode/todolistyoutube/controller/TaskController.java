@@ -29,7 +29,7 @@ public class TaskController {
 
     @PostMapping("/tasks")
     @ResponseStatus(HttpStatus.CREATED)
-    public Task createTask (@RequestBody Task task){
+    public Task createTask(@RequestBody Task task) {
         log.info("Criando uma nova tarefa com as informações [{}]", task);
         return taskService.createTask(task);
     }
@@ -41,7 +41,7 @@ public class TaskController {
     })
     @GetMapping("/tasks")
     @ResponseStatus(HttpStatus.OK)
-    public List<Task> getAllTasks(){
+    public List<Task> getAllTasks() {
         log.info("Listando todas as tarefas cadastradas");
         return taskService.listAllTask();
 
@@ -54,7 +54,7 @@ public class TaskController {
     })
     @GetMapping("/tasks/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Task> getTaskById(@PathVariable (value = "id") Long id){
+    public ResponseEntity<Task> getTaskById(@PathVariable(value = "id") Long id) {
         log.info("Buscando tarefas com o id [{}]", id);
         return taskService.findTaskById(id);
 
@@ -65,11 +65,11 @@ public class TaskController {
             @ApiResponse(code = 201, message = "Tarefa atualizada com sucesso"),
             @ApiResponse(code = 404, message = "Não foi possível atualizar a tarefa - tarefa não encontrada")
     })
-    @PutMapping ("/tasks/{id}")
+    @PutMapping("/tasks/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Task> updateTaskById(@PathVariable (value = "id") Long id, @RequestBody Task task){
+    public ResponseEntity<Task> updateTaskById(@PathVariable(value = "id") Long id, @RequestBody Task task) {
         log.info("Atualizando tarefas com o id [{}] as novas informações são: [{}]", id, task);
-        return taskService.updateTaskById(task,id);
+        return taskService.updateTaskById(task, id);
 
     }
 
@@ -78,9 +78,9 @@ public class TaskController {
             @ApiResponse(code = 204, message = "Tarefa excluída com sucesso"),
             @ApiResponse(code = 404, message = "Não foi possível excluir a tarefa - tarefa não encontrada")
     })
-    @DeleteMapping ("/tasks/{id}")
+    @DeleteMapping("/tasks/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public ResponseEntity<Object> deleteById(@PathVariable (value = "id") Long id){
+    public ResponseEntity<Object> deleteById(@PathVariable(value = "id") Long id) {
         log.info("Excluindo tarefas com o id [{}]", id);
         return taskService.deleteById(id);
 
