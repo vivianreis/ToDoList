@@ -11,8 +11,8 @@ Com este projeto é possível:
 
 IMPORTANTE❗
 Este projeto é um projeto de estudo usando a playlist da Kamila de Fátima no Youtube
-Link: https://www.youtube.com/watch?v=un7EgWqgNMs&list=PL_pqVN-1MnwMScqW3AnPR0oA2SiBy0d2_
-Sigam a Kamila de Fátima aqui no Github também: https://github.com/Kamilahsantos
+Link: https://www.youtube.com/watch?v=un7EgWqgNMs&list=PL_pqVN-1MnwMScqW3AnPR0oA2SiBy0d2_</br>
+Sigam a Kamila de Fátima aqui no Github também: https://github.com/Kamilahsantos 
 
 ⚙ Tecnologias utilizadas
 -----------------------------------------------------------
@@ -39,7 +39,8 @@ Docs: Todas as configurações do Swagger devem ser definidas na classe SwaggerC
 ----------------------------------------------------------
 O que é Heroku? Heroku é uma PaaS (Plataforma como um Serviço) que permite hospedagem, configuração, testagem e publicação de projetos virtuais na nuvem.
 
-https://dashboard.heroku.com/apps/todolist-kamilacodevivian https://todolist-kamilacodevivian.herokuapp.com/swagger-ui.html#/task-controller
+https://dashboard.heroku.com/apps/todolist-kamilacodevivian </br>
+https://todolist-kamilacodevivian.herokuapp.com/swagger-ui.html#/task-controller
 
 🚀 Como compilar o projeto na sua máquina
 ----------------------------------------------------------
