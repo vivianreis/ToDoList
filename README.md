@@ -1,6 +1,6 @@
 🎯 Projeto CRUD To-Do List
 ----------------------------------------------------------
-Repositório para estudos projeto de uma To-Do List usando Spring + Heroku
+Repositório para estudos projeto de uma To-Do List usando Spring + Heroku <br>
 Com este projeto é possível:
 
 - Criar tarefas.
