@@ -49,7 +49,6 @@ https://todolist-kamilacodevivian.herokuapp.com/swagger-ui.html#/task-controller
 De um git clone nesse repositório:
 
 git clone https://github.com/vivianreis/toDoList.git </br>
-No terminal verifique se está na branch master (deixei o ReadMe na branch main e há uma outra chamada Master com todo o código)
 
 No caso utilizei a IDE Intellij vá na classe principal e clique na seta Run.
 
